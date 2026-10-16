@@ -167,8 +167,7 @@ async def check_and_assign_roles(bot: commands.Bot, member: discord.Member, tota
         print(f"[ERRO Forbidden] {e}")
     except discord.HTTPException as e:
         print(f"[ERRO HTTP] {e}")
-
-
+        
 async def announce_role(bot: commands.Bot, member: discord.Member, role: discord.Role):
     """Envia uma mensagem marcando o membro no canal de anúncios ao conquistar um novo cargo."""
     channel = bot.get_channel(ANNOUNCE_CHANNEL_ID)

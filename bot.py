@@ -18,11 +18,14 @@ intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 # Cada entrada corresponde a um arquivo em cogs/, sem a extensão .py
+
 EXTENSIONS = [
     "cogs.voice_tracker",
     "cogs.tempo",
     "cogs.rank",
     "cogs.recrutar",
+    "cogs.evento",
+    "cogs.punicao",
 ]
 
 

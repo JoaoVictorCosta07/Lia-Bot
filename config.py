@@ -11,6 +11,9 @@ IGNORED_VOICE_CHANNELS = {
 # Canal onde são anunciadas novas conquistas de cargo
 ANNOUNCE_CHANNEL_ID = 1552060059813421187
 
+# Canal onde são publicados os avisos de punição
+PUNISHMENT_CHANNEL_ID = 1556144583669186602
+
 """
 🪖 Recruta — 0h
 🎖️ Soldado — 3h
